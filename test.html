@@ -10,7 +10,7 @@
             try{
             <!-- js调用OC的固定写法window.webkit.messageHandlers.OC设置ScriptMessageHandler代理添加的方法.postMessage（js抛给OC的参数） -->
             var funMore2 = window.webkit.messageHandlers.unlock();
-            if (funMore2 && typeof (funMore2) == "function")
+            if (funMore2 && typeof (funMore2) == "UserMessageHandler")
             {
                 window.webkit.messageHandlers.unlock.postMessage(null);
             }
