@@ -9,7 +9,7 @@
         <!-- 这里就是直接使用OC注入的ZBPlus-iOS.txt内容即ZBPlus对象调取getPhoto方法 -->
             try{
                 <!-- js调用OC的固定写法window.webkit.messageHandlers.OC设置ScriptMessageHandler代理添加的方法.postMessage（js抛给OC的参数） -->
-                var funMore2 = window.webkit.messageHandlers.unlock();
+                
                 window.webkit.messageHandlers.unlock.postMessage(null);
             }
             catch(e)
@@ -20,7 +20,7 @@
     </script>
 </head>
 <body>
-    <div onclick="openCamera()">打开摄像头123</div>
+    <div onclick="openCamera()">打开摄像头</div>
     <div id='photoInfo'></div>
 </body>
 </html>
