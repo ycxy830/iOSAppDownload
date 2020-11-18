@@ -7,7 +7,14 @@
     <script type="text/javascript">
         function openCamera(){
             <!-- 这里就是直接使用OC注入的ZBPlus-iOS.txt内容即ZBPlus对象调取getPhoto方法 -->
-            
+            try{
+            if (window.webviewobj.unlock) {
+                window.webviewobj.unlock();
+            }
+            }catch(e)
+            {
+                
+            }
             if (window.webkit.messageHandlers.unlock) {
                 window.webkit.messageHandlers.unlock.postMessage(null);
             }
@@ -15,7 +22,7 @@
     </script>
 </head>
 <body>
-    <div onclick="openCamera()">打开摄像头2222</div>
+    <div onclick="openCamera()">打开摄像头123456</div>
     <div id='photoInfo'></div>
 </body>
 </html>
