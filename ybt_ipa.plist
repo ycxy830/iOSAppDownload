@@ -34,7 +34,7 @@
                         <!-- <key>needs-shine</key>
                         <true/>-->
                         <key>url</key>
-                        <string>https://ycxy830.github.io/iOSAppDownload/ybt_57X57.png</string><!--修改这里-->
+                        <string>https://ycxy830.github.io/iOSAppDownload/ybt_icon_57X57.png</string><!--修改这里-->
                     </dict>
                     <!-- full-size-image: the large 512x512 icon used by iTunes.-->
                     <dict>
@@ -46,7 +46,7 @@
                         <key>needs-shine</key>
                         <true/>-->
                         <key>url</key>
-                        <string>https://ycxy830.github.io/iOSAppDownload/ybt_icon_512X512.jpg</string><!--修改这里-->
+                        <string>https://ycxy830.github.io/iOSAppDownload/ybt_icon_512X512.png</string><!--修改这里-->
                     </dict>
                 </array>
                 <key>metadata</key>
@@ -56,7 +56,7 @@
                     <string>com.lucksoft.yangbatu</string><!--修改这里-->
                     <!-- optional (software only) -->
                     <key>bundle-version</key>
-                    <string>1.0.5</string><!--修改这里-->
+                    <string>1.0.5(1)</string><!--修改这里-->
                     <!-- required. the download kind.-->
                     <key>kind</key>
                     <string>software</string>
