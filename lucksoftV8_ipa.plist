@@ -24,7 +24,8 @@
                         </array>-->
                         <!-- required. the URL of the file to download.-->
                         <key>url</key>
-                        <string>https://ycxy830.github.io/iOSAppDownload/LuckSoft_V8.ipa</string><!--修改这里-->
+                        <!-- <string>https://ycxy830.github.io/iOSAppDownload/LuckSoft_V8.ipa</string>--><!--修改这里-->
+                        <string>https://gitcode.net/ycxy830/test/-/raw/master/LuckSoft_V8.ipa</string>
                     </dict>
                     <!-- display-image: the icon to display during download.-->
                     <dict>
